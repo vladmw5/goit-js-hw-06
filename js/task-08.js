@@ -11,4 +11,5 @@ document
       [email.name]: email.value,
       [password.name]: password.value,
     });
+    event.currentTarget.reset();
   });
