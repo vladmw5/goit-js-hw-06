@@ -20,7 +20,7 @@ document
     images
       .map(
         (image) =>
-          `<li></li><img src="${image.url}" alt='${image.alt}' class="gallery__img"></li>`
+          `<li class="gallery__item"><img src="${image.url}" alt='${image.alt}' class="gallery__img"></li>`
       )
       .join("")
   );
